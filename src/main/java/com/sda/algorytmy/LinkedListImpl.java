@@ -30,14 +30,32 @@ public class LinkedListImpl<E> implements MyList<E>{
         size++;
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "LinkedListImpl{" +
+                "head=" + head +
+                ", size=" + size +
+                '}';
+    }
+
     @Override
     public boolean remove(int index){
         return false;
+
+
     }
     class Node{
         private Node next;
         private Object data;
 
+        @Override
+        public String toString() {
+            return "Node{" +
+                    "next=" + next +
+                    ", data=" + data +
+                    '}';
+        }
 
         public Node(Object data){
             this.data = data;

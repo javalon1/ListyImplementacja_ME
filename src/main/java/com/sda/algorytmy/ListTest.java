@@ -23,16 +23,14 @@ public class ListTest {
         list.add(15);
         list.add(15);
         list.add(15);
-        list.add(15);
-        list.add(15);
-        list.add(15);
-        list.add(15);
-        list.add(15);
-        list.add(15);
-        list.add(5);
-        list.add(52);
+
         list.remove(3);
 
+        MyList<Integer> list1 = new LinkedListImpl<>();
+        list1.add(1);
+        list1.add(2);
+        list1.add(3);
 
+        System.out.println(list1v1);
     }
 }
