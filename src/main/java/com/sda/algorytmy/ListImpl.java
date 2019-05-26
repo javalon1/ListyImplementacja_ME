@@ -39,7 +39,13 @@ public class ListImpl<E> implements MyList<E> {
         elementData[elementData.length - 1] = null;
         return true;
     }
-        public void ensureCapacity(){
+
+    @Override
+    public void printList() {
+
+    }
+
+    public void ensureCapacity(){
         int newSize = this.DEFAULT_CAPACITY * 2;
         elementData = Arrays.copyOf(elementData, newSize);
         }
