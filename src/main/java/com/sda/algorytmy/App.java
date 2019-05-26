@@ -1,5 +1,6 @@
-package com.sda.algorytmy;
+ package com.sda.algorytmy;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -54,7 +55,6 @@ public class App
 *//*
         String s = "napis";
         Zadanie.zad1(s);*/
-
         List<Integer> list = new ArrayList<>();
         /*list.add(222);*/
     }
